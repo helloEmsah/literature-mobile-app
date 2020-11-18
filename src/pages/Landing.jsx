@@ -5,6 +5,10 @@ import { CustomButton } from "../components/utilities/CustomButton";
 const Landing = (props) => {
   return (
     <View style={styles.container}>
+      <Image
+        style={{ top: 0, width: 180, height: 180 }}
+        source={require("../../assets/img/bg1.png")}
+      />
       <Image source={require("../../assets/img/landingIcon.png")} />
 
       <Text style={styles.header}>source of intelligence</Text>

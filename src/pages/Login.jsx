@@ -9,7 +9,7 @@ const Login = (props) => {
       <Text style={styles.header}>Sign In</Text>
       <View>
         <CustomTextInput placeholder="Email" />
-        <CustomTextInput placeholder="Password" />
+        <CustomTextInput secureTextEntry={true} placeholder="Password" />
         <CustomButton
           backgroundColor="#af2e1c"
           color="#ffffff"
@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
   header: {
     color: "#ffffff",
     fontSize: 36,
-    marginLeft: 30,
+    marginLeft: 10,
     marginBottom: 15,
   },
 });

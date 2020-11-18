@@ -21,7 +21,7 @@ const Register = (props) => {
           width={280}
           style={{ marginLeft: 10 }}
         >
-          Sign In
+          Sign Up
         </CustomButton>
       </View>
     </View>
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   header: {
     color: "#ffffff",
     fontSize: 36,
-    marginLeft: 30,
+    marginLeft: 10,
     marginBottom: 15,
   },
 });
